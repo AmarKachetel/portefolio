@@ -1,0 +1,666 @@
+/*CSS DU BODY*/
+body{
+  width: 100%;
+  height: 100vh;
+  font-size: 1rem;
+  font-family: Raleway, Verdana, san-serif;
+  cursor: auto;
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+/*CSS DU MAIN*/
+main{
+  background-color: #00334A;
+  color: white;
+  overflow: auto;
+}
+
+/*CSS pour les balises img*/
+img {
+  max-width: 100%;
+  height: auto;;
+}
+
+
+/* CSS de la section barre navigation*/
+.barreNavigation{
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  position: fixed;
+  width: 100%;
+  background: black;
+  text-align: left;
+  padding: 0.75em 2em 0.75em 2em;
+  z-index: 500;
+}/* CSS de la calsse amar */
+.navigation{
+  display: flex;
+}
+.github{
+  padding-bottom: 2px;
+}
+/*CSS DE LOGO Amar KACHETEL DE LA BARRE DE NAVIGATION*/
+.amar{
+  font-size: 1.3em;
+  color: #8ebdf8;
+  text-align: left;
+}
+/*CSS DES ITEMS DE LA BARRE DE NAVIGATION*/
+.nav{
+ display: block;
+ padding-right: 3em;
+ font-size: 1.2em;
+ color:snow;
+ text-decoration: none;
+}
+/*CSS DES LIENS DE LA BARRE DE LA NAVIGATION A L'HOVER (quand la souris passe sur les liens) */
+a:hover{
+  color: aqua;
+}
+/*CSS DES LIENS DE LA BARRE DE LA NAVIGATION AU CLIQUE (quand on clique sur les liens )*/
+a:active {
+  color: #8ebdf8;;
+}
+/*CSS DE LA SECTION QUI CONTIENNENT LE TITRE, SOUS TITRE ET LE BOUTON DE LA PAGE D'ACCUEIL*/
+.accueil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  color: #333;
+  background-image: url("assets/accueil.jpg");
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*CSS DU TITRE DE LA PAGE D'ACCUEIL*/
+.titreAccueil{
+ display: flex;
+ width: 70%;
+ height: fit-content;
+ justify-content: center;
+ text-align: center;
+ background: rgba(224, 225, 221, 1);
+ border-radius: 15px;
+ padding: .5em;
+ margin-top: 3em;
+ 
+}
+/*CSS DU SOUS TITRE DE LA PAGE D'ACCUEIL*/
+.sousTitreAccueil{
+  display: flex;
+  width: 50%;
+  height: fit-content;
+  justify-content: center;
+  text-align: center;
+  background: rgba(224, 225, 221, 1);
+  border-radius: 15px;
+  margin-top: 2em;
+  padding: .5em;
+  
+
+}
+/*CSS DU BOUTON TITRE DE LA PAGE D'ACCUEIL*/
+.boutonAccueil{
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 2em 2em 2em;
+  font-size: 1.5em;
+  height: 1em;
+  text-align: center;
+  background-color: black;
+  border-radius: 25px;
+  margin-top: 3em;
+}
+/*CSS DU TEXET A L'INTERIEUR DU BOUTON D'ACCUEIL*/ 
+.textbouton{
+  color: #8ebdf8;
+  text-decoration: none;
+}
+
+.aPropos{
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  text-align: justify;
+  width: 100%;
+  background-color:#1b263b;
+  padding: 3em 5em 3em 5em;
+}
+.infoPersonnel{
+  display: flex;
+  width: 100%;
+  padding: 2em;
+  flex-direction: column;
+}
+.di{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 3em;
+  text-align: center;
+}
+
+.img{ 
+  float: left;
+  height: 160px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+}
+.title{ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  color: #8ebdf8;
+}
+
+
+.textAPropos{
+  padding: 1em 1em  0.5em 0;
+  font-size: 1.2em;
+  color: snow;
+  text-align: start;
+  text-align: justify;
+  width:100%;
+}
+
+.imgAPropos{
+  height: 160px;
+}
+
+.infoPersonnel{
+  display: flex;
+  
+}
+
+.acctuellement{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  padding-bottom: 10px;
+  background-image: url("assets/baseDeDonnees.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+  
+}
+.acc{
+
+ 
+  height: fit-content;
+  justify-content: center;
+  text-align: center;
+  background: rgba(224, 225, 221, .3);
+  border-radius: 15px;
+}
+
+.logoEcole{
+  width: 175px;
+  height: 71px;
+  padding-bottom: 1em;
+}
+
+.acctuellement h1{
+  font-size: 2.5em;
+  color: #8ebdf8;
+  padding: 1em;
+  color:#00334A;
+}
+.acctuellement p{
+  font-size: 1.2em;
+}
+
+ 
+
+ 
+
+  .projects {
+    padding: 3em 5em 3em 5em;
+    background-color:#e0e1dd ;
+  }
+  .projects h1{
+    font-size: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+    color:#00334A;
+  }
+
+.project1{
+  padding-right: 20em;
+}
+
+.project1{
+  padding-top: 5em;
+}
+.text{
+  font-size: 1rem;
+  color: #00334A;
+}
+.cardItem{
+  width: 48%;
+  margin: 10px;
+}
+.cards{
+  display: flex;
+ justify-content:space-around;
+  width: 100%;
+  margin: 2px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  padding: 3em 0 3em 0;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background: #00334A;
+  text-align: center;
+}
+.barres{
+  padding: 0 5em 3em 5em;
+}
+
+.container h1{
+  font-size: 2.5em;
+  color: #8ebdf8;
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+
+
+.bar.fill {
+  left: 0;
+  position: absolute;
+  top: 0;
+  background-color: #00a1a7;
+  opacity: 1;
+  padding: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+
+
+
+.bar span {
+  display: initial;
+  
+  color: rgb(0, 0, 0);
+}
+
+.bar span {
+  padding: 0 15px 0 0;
+  z-index: 1;
+}
+
+
+
+
+.bar {
+  align-items: flex-end;
+  background-color: white;
+  color: black;
+  font-size: 7pt;
+  height: 22px;
+  margin: 0 0 12px 0;
+  position: relative;
+}
+
+
+.bar .tag {
+  left: 0;
+  position: absolute;
+  top: 0;
+  background-color: #98fcff;
+  color: black;
+  height: 100%;
+  width: 110px;
+  width: 70px;
+}
+
+.bold {
+  font-family: "Raleway-bold";
+}
+
+
+
+
+
+
+.projet{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: #d4d6ce;
+  color: black;
+}
+
+
+
+
+
+#carouselExampleCaptions{
+  align-items: center;
+  display: flex;
+  
+  justify-content: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: #d4d6ce;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS FORMULAIRE*/
+
+.formulaire{
+  padding: 4em 7em 4em 7em;
+  background-color: black;
+}
+.formulaire h1{
+  font-size: 3em;
+}
+.formulaire p{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+main form{
+  display: grid;
+  border-top: solid 1px white;
+}
+main form > div > div {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2em 0;
+}
+main form > div:last-child > div:first-child{
+  margin: 0 0 2em 0;
+}
+main form label{
+  margin-bottom: .5em;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+}
+main form textarea {
+  height: 10em;
+  resize: none;
+}
+main form button{
+  padding: 0.5em;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-top: 2em;
+  border-radius: 1em;
+}
+main form button:hover{
+  background-color: rgb(255, 160, 76);
+}
+main form button:active{
+  background-color: rgb(56, 22, 205);
+}
+main form .msg{
+  font-size: .8em;
+  color: #00334A;
+  margin-left: 1em;
+}
+main form input, main form textarea{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+main form input:valid, main form textarea:valid {
+  border: 1px solid green;
+}
+main form input.invalid, main form textarea.invalid {
+  border: 1px solid rgb(125, 238, 251);
+}
+
+.formulaire h1{
+  text-align: center;
+  padding-bottom: 2em;
+  font-size: 2em;
+  color: #8ebdf8;
+}
+
+.formulaire p{
+  padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUIRY POUR LA SECTION A PROPOS*/
+@media screen and (min-width: 300px){
+  .aPropos{
+    padding: .5em ;
+  }
+  .di{
+    padding-left: .5em;
+  }
+}
+ @media screen and (min-width: 768px){
+  .aPropos{
+    padding: 1em ;
+  }
+  .di{
+    padding-left: 1em;
+  }
+}
+@media screen and (min-width: 1024px){
+  .aPropos{
+    padding: 1.5em ;
+  }
+  .di{
+    padding-left: 1.5em;
+  }
+}
+@media screen and (min-width: 1280px){
+  .aPropos{
+    padding: 2em ;
+  }
+  .di{
+    padding-left: 2em;
+  }
+}
+@media screen and (min-width: 1600px){
+  .aPropos{
+    padding: 2.5em ;
+  }
+  .di{
+    padding-left: 2.5em;
+  }
+}
+
+/*MEDIA QUIRY POUR LA SECTION COMPETENCES*/
+@media screen and (min-width: 300px){
+  .container{
+    padding: 2em 0 2em 0;
+  }
+  .barres{
+    padding: 0 1em 1em 1em;
+  }
+}
+@media screen and (min-width: 768px){
+  .container{
+    padding: 3em 0 3em 0;
+  }
+  .barres{
+    padding: 0 3em 2em 3em;
+  }
+}
+@media screen and (min-width: 1024px){
+  .container{
+    padding: 3em 0 3em 0;
+  }
+  .barres{
+    padding: 0 5em 3em 5em;
+  }
+}
+@media screen and (min-width: 1280px){
+  .container{
+    padding: 3.5em 0 3.5em 0;
+  }
+  .barres{
+    padding: 0 6em 3.5em 6em;
+  }
+}
+@media screen and (min-width: 1600px){
+  .container{
+    padding: 4em 0 4em 0;
+  }
+  .barres{
+    padding: 0 7em 4em 7em;
+  }
+}
+
+/*MEDIA QUIRY POUR LA SECTION FORMUALIRE*/
+@media screen and (min-width: 300px){
+  .formulaire{
+    padding: 1em 3em 1em 3em;
+  }
+}
+@media screen and (min-width: 768px){
+  .formulaire{
+    padding: 2em 5em 2em 5em;
+  }
+}
+@media screen and (min-width: 1024px){
+  .formulaire{
+    padding: 4em 9em 4em 9em;
+  }
+}
+@media screen and (min-width: 1280px){
+  .formulaire{
+    padding: 4em 10em 4em 10em;
+  }
+}
+@media screen and (min-width: 1600px){
+  .formulaire{
+    padding: 4em 12em 4em 12em;
+  }
+}
+
+
+
+/*MEDIA QUIRY POUR LA SECTION PROJECTS*/
+@media screen and (min-width: 300px){
+  .projects {
+    padding: .5em .5em .5em .5em;
+  }
+}
+@media screen and (min-width: 768px){
+  .projects {
+    padding: 1em 1em 1em 1em;
+  }
+}
+@media screen and (min-width: 1024px){
+  .projects {
+    padding: 3em 5em 3em 5em;
+  }
+}
+@media screen and (min-width: 1280px){
+  .projects {
+    padding: 4em 6em 4em 6em;
+  }
+}
+@media screen and (min-width: 1600px){
+  .projects {
+    padding: 5em 7em 5em 7em;
+  }
+}
