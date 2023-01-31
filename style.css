@@ -102,8 +102,6 @@ a:active {
   border-radius: 15px;
   margin-top: 2em;
   padding: .5em;
-  
-
 }
 /*CSS DU BOUTON TITRE DE LA PAGE D'ACCUEIL*/
 .boutonAccueil{
@@ -122,6 +120,8 @@ a:active {
   color: #8ebdf8;
   text-decoration: none;
 }
+
+/*CSS DE LA SECTION A PROPOS*/
 
 .aPropos{
   display: flex;
@@ -160,8 +160,6 @@ a:active {
   height: fit-content;
   color: #8ebdf8;
 }
-
-
 .textAPropos{
   padding: 1em 1em  0.5em 0;
   font-size: 1.2em;
@@ -170,15 +168,14 @@ a:active {
   text-align: justify;
   width:100%;
 }
-
 .imgAPropos{
   height: 160px;
 }
-
 .infoPersonnel{
-  display: flex;
-  
+  display: flex; 
 }
+
+/*CSS DE LA SECTION ACCTUELLEMENT*/
 
 .acctuellement{
   display: flex;
@@ -189,12 +186,8 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
- 
-  
 }
-.acc{
-
- 
+.acc{ 
   height: fit-content;
   justify-content: center;
   text-align: center;
@@ -207,7 +200,6 @@ a:active {
   height: 71px;
   padding-bottom: 1em;
 }
-
 .acctuellement h1{
   font-size: 2.5em;
   color: #8ebdf8;
@@ -218,9 +210,7 @@ a:active {
   font-size: 1.2em;
 }
 
- 
-
- 
+/*CSS DE LA SECTION PROJECTS*/ 
 
   .projects {
     padding: 3em 5em 3em 5em;
@@ -256,41 +246,7 @@ a:active {
   flex-wrap: wrap;
 }
 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*CSS DE LA SECTION COMPETCENS*/
 
 .container{
   padding: 3em 0 3em 0;
@@ -303,12 +259,10 @@ a:active {
 .barres{
   padding: 0 5em 3em 5em;
 }
-
-.container h1{
+container h1{
   font-size: 2.5em;
   color: #8ebdf8;
 }
-
 .item{
   width: 100%;
   display: flex;
@@ -316,9 +270,6 @@ a:active {
   align-items: center;
   padding: 15px;
 }
-
-
-
 .bar.fill {
   left: 0;
   position: absolute;
@@ -329,25 +280,14 @@ a:active {
   font-size: 1.5em;
   text-align: center;
 }
-
-
-
-
-
 .bar span {
-  display: initial;
-  
+  display: initial; 
   color: rgb(0, 0, 0);
 }
-
 .bar span {
   padding: 0 15px 0 0;
   z-index: 1;
 }
-
-
-
-
 .bar {
   align-items: flex-end;
   background-color: white;
@@ -357,8 +297,6 @@ a:active {
   margin: 0 0 12px 0;
   position: relative;
 }
-
-
 .bar .tag {
   left: 0;
   position: absolute;
@@ -369,16 +307,9 @@ a:active {
   width: 110px;
   width: 70px;
 }
-
 .bold {
   font-family: "Raleway-bold";
 }
-
-
-
-
-
-
 .projet{
   align-items: center;
   display: flex;
@@ -389,40 +320,17 @@ a:active {
   color: black;
 }
 
-
-
-
+/*CSS DU CARROUSSEL*/
 
 #carouselExampleCaptions{
   align-items: center;
-  display: flex;
-  
+  display: flex;  
   justify-content: center;
   padding-top: 5em;
   padding-bottom: 5em;
   background: #d4d6ce;
   color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*CSS FORMULAIRE*/
 
@@ -437,8 +345,6 @@ a:active {
   text-align: center;
   font-size: 1.2em;
 }
-
-
 main form{
   display: grid;
   border-top: solid 1px white;
@@ -491,38 +397,15 @@ main form input:valid, main form textarea:valid {
 main form input.invalid, main form textarea.invalid {
   border: 1px solid rgb(125, 238, 251);
 }
-
 .formulaire h1{
   text-align: center;
   padding-bottom: 2em;
   font-size: 2em;
   color: #8ebdf8;
 }
-
 .formulaire p{
   padding-bottom: 2em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*MEDIA QUIRY POUR LA SECTION A PROPOS*/
@@ -635,8 +518,6 @@ main form input.invalid, main form textarea.invalid {
     padding: 4em 12em 4em 12em;
   }
 }
-
-
 
 /*MEDIA QUIRY POUR LA SECTION PROJECTS*/
 @media screen and (min-width: 300px){
