@@ -85,7 +85,7 @@ a:active {
  height: fit-content;
  justify-content: center;
  text-align: center;
- background: rgba(224, 225, 221, 1);
+ background: rgba(224, 225, 221, .4);
  border-radius: 15px;
  padding: .5em;
  margin-top: 3em;
@@ -98,7 +98,7 @@ a:active {
   height: fit-content;
   justify-content: center;
   text-align: center;
-  background: rgba(224, 225, 221, 1);
+  background: rgba(224, 225, 221, .6);
   border-radius: 15px;
   margin-top: 2em;
   padding: .5em;
